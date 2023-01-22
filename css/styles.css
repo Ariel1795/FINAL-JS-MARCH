@@ -35,6 +35,13 @@ header .form {
 body {
   background-color: #222;
   width: 100%; }
+  body .swAlertDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; }
+    body .swAlertDiv .swAlertBtn {
+      font-size: 1.2rem;
+      font-weight: bold; }
   body #cañasDeleteBtn {
     margin-bottom: 2rem;
     display: grid;

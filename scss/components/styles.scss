@@ -48,6 +48,15 @@ body{
     background-color: #222;
     width: 100%;
 
+    .swAlertDiv{
+        display:flex;
+        justify-content: center;
+        margin-top: 2rem;
+        .swAlertBtn{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
     #cañasDeleteBtn{
         margin-bottom: 2rem;
         display: grid;
