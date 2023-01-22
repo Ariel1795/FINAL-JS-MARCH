@@ -1,0 +1,9 @@
+[
+    {"marca": "LEXUS", "nombre":"Blacknight", "medida":270, "tramos": 2, "precio": 11000, "stock": 4},
+    {"marca": "LEXUS", "nombre":"Starhawk", "medida":360, "tramos": 2, "precio": 13000, "stock": 4},
+    {"marca": "LEXUS", "nombre":"Legacy", "medida":270, "tramos": 2, "precio": 10000, "stock": 4},
+    {"marca": "LEXUS", "nombre":"Pulsar", "medida":360, "tramos": 2, "precio": 12000, "stock": 4},
+    {"marca": "LEXUS", "nombre":"Chaiten", "medida":270, "tramos": 2, "precio": 11500, "stock": 4}
+]
+
+

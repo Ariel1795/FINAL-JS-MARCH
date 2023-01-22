@@ -1,0 +1,103 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+header .titulo {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 5rem;
+  color: #50bdba; }
+
+header .titulo-2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #50bdba;
+  margin-top: 5rem;
+  margin-bottom: 1rem; }
+
+header .form {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  header .form input {
+    width: 70%;
+    font-size: 1.3rem;
+    margin-bottom: 1rem; }
+  header .form div button {
+    margin: 1rem;
+    font-size: 2rem; }
+
+body {
+  background-color: #222;
+  width: 100%; }
+  body #cañasDeleteBtn {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 175px;
+    gap: 2rem;
+    width: 100%; }
+    body #cañasDeleteBtn .divElmCañas {
+      width: 310px;
+      height: 100%;
+      margin: 1rem;
+      border: 1px solid #fdfdfd; }
+    body #cañasDeleteBtn h2 {
+      color: #50bdba;
+      border-bottom: 1px solid #fdfdfd; }
+    body #cañasDeleteBtn h3 {
+      color: #aefeff;
+      border-top: 1px solid #fdfdfd; }
+  body .listTittle {
+    color: #50bdba;
+    text-align: center;
+    font-size: 2rem; }
+  body .btnDiv {
+    text-align: center; }
+    body .btnDiv button {
+      margin: 1rem;
+      font-size: 1.5rem; }
+  body .divCañas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 175px;
+    gap: 2rem;
+    width: 100%; }
+    body .divCañas .div-lista {
+      width: 310px;
+      height: 100%;
+      margin: 1rem;
+      border: 1px solid #fdfdfd; }
+    body .divCañas h2 {
+      color: #50bdba;
+      border-bottom: 1px solid #fdfdfd; }
+    body .divCañas h3 {
+      color: #aefeff;
+      border-top: 1px solid #fdfdfd; }
+    body .divCañas .div-remove-card {
+      border: 1px solid #fdfdfd;
+      display: flex;
+      justify-content: center; }
+  body #data {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 153px;
+    gap: 1rem; }
+    body #data div {
+      width: 310px;
+      height: 100%;
+      margin: 1rem;
+      border: 1px solid #fdfdfd; }
+      body #data div h2 {
+        color: #50bdba;
+        border-bottom: 1px solid #fdfdfd; }
+      body #data div h3 {
+        color: #aefeff;
+        border-bottom: 1px solid #fdfdfd; }

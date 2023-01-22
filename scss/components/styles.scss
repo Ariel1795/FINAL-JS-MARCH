@@ -1,0 +1,139 @@
+@import "../base/variables" ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header{
+    .titulo{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 5rem;
+        color: $color-tittles;
+    
+    }
+    .titulo-2{
+        text-align: center;
+        font-size: 2rem;
+        color: $color-tittles;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        input{
+            width: 70%;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        div{
+            button{
+                margin: 1rem;
+                font-size: 2rem;
+            }
+            
+    }
+}
+}
+body{
+    
+    background-color: #222;
+    width: 100%;
+
+    #cañasDeleteBtn{
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: 175px;
+        gap: 2rem;
+        width: 100%;
+        .divElmCañas{
+            width: 310px;
+            height: 100%;
+            margin: 1rem;
+            border: 1px solid $color-borders;
+        }
+        h2{
+            color: #50bdba;
+            border-bottom: 1px solid $color-borders;
+        }
+        h3{
+            color: $color-products;
+            border-top: 1px solid $color-borders;
+        }
+    }
+    .listTittle{
+        color: $color-tittles;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .btnDiv{    
+        text-align: center;
+        button{
+
+            margin: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+        .divCañas{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-auto-rows: 175px;
+            gap: 2rem;
+            width: 100%;
+            
+        .div-lista{
+    
+            width: 310px;
+            height: 100%;
+            margin: 1rem;
+            border: 1px solid $color-borders;
+        }
+        h2{
+            color: #50bdba;
+            border-bottom: 1px solid $color-borders;
+        }
+        h3{
+            color: $color-products;
+            border-top: 1px solid $color-borders;
+        }
+        .div-remove-card{
+            border: 1px solid $color-borders;
+            display:flex;
+            justify-content: center;
+            
+        }
+    }
+    #data{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: 153px;
+        gap: 1rem;
+    div{
+        
+            width: 310px;
+            height: 100%;
+            margin: 1rem;
+            border: 1px solid $color-borders;
+            
+            h2{
+                color: #50bdba;
+                border-bottom: 1px solid $color-borders;
+            }
+            h3{
+                color: $color-products;
+                border-bottom: 1px solid $color-borders;
+            }
+        }
+    }
+}
